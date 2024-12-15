@@ -88,12 +88,12 @@ mern-transaction-app/
 
 ## Killing Ports
 if you are trying to restart and run again make sure to kill the ports via cmd
-go to cmd - >administration 
-enter the commands
-netstat -ano |findstr :3000
-find the pid which is at the right of listening 
+- go to cmd - >administration 
+- enter the commands
+- netstat -ano |findstr :3000
+- find the pid which is at the right of listening 
 paste it in the below code
-taskkill /PID XXXX /F (where xxx is the id)
+- taskkill /PID XXXX /F (where xxx is the id)
 
 ## Running the Application
 
